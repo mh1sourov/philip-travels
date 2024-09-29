@@ -130,12 +130,186 @@ color: rgb(66, 66, 71);
     padding: 20px;
 }
 
-.custom-section input:hover{
-    background-color: rgb(255, 84, 0);
-}
+
 
 .find-now-btn{
+    margin-top: 40px;
     background-color: rgb(255, 84, 0);
     font-weight: 700;
     font-size: 13px;
-    }    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);}
+
+.popular-section-container{
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    min-width: 912px;
+    display: flex;
+    margin: 60px auto 20px;
+}
+
+.popular-content-section{
+    width: 50%;
+    /* border: 1px solid yellow; */
+}
+
+.popular-content-section h1{
+font-size: 40px;
+font-weight: 800;
+color: rgb(19, 19, 24);
+}
+
+
+.popular-content-section ul, p{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+    }
+
+    #read-more{
+        background-color: rgb(255, 84, 0);
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 170px;
+        height: 52px;
+    }
+
+    .popular-content-section h1, p, ul, button{
+    
+        margin-bottom: 3cqw;
+    }
+
+    .popular-content-section ul{
+        margin-left: 20px;
+    }
+
+
+.popular-tour-section-img-container{
+    width: 50%;
+}
+
+.popular-tour-section-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.choose-destination-container{
+    /* border: 1px solid yellow; */
+    max-width: 1200px;
+    min-width: 912px;
+    margin: 60px auto 20px;
+  
+}
+
+.choos-destination-content{
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.choos-destination-content h1{
+ padding: 10px;
+ color: rgb(19, 19, 24);
+font-size: 40px;
+font-weight: 800;
+}
+
+.choos-destination-content p{
+    padding: 10px;
+    color: rgba(19, 19, 24, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.maldiv-indonesia-container{
+    display: flex;
+    gap: 20px;
+}
+
+.maldiv{ 
+    width: 50%;
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+    height: 300px;
+
+    border-radius: 16px;
+
+}
+
+.indonesia{
+width: 50%;
+
+background-image: url(../Images/Rectangle\ 8.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+    height: 300px;
+
+    border-radius: 16px;
+}
+
+.country{
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+text-align: center; 
+margin-top: 25%;
+}
+
+.srilanka-amarica-kashmir-container{
+    display: flex;
+    gap: 20px;
+    margin:20px 0;
+
+}
+
+.srilanka{
+    width: 50%;
+
+background-image: url(../Images/Rectangle\ 6.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+    height: 300px;
+
+    border-radius: 16px;
+}
+
+.amarica{
+    width: 50%;
+
+    background-image: url(../Images/Rectangle\ 7.png);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    
+        height: 300px;
+    
+        border-radius: 16px;
+}
+
+.kashmir{
+    width: 50%;
+
+    background-image: url(../Images/Rectangle\ 9.png);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    
+        height: 300px;
+    
+        border-radius: 16px;
+}
+
+.bangladesh-bandarban{
+    display: flex;
+    gap: 20px;
+    margin:20px 0;
+    border: 1px solid red;
+}
+
