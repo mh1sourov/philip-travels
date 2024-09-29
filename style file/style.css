@@ -479,7 +479,7 @@ margin: 10px 0;
 .deal_2_img_container{
 
     margin-top: 20px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 
     background-image: url(../Images/Rectangle\ 11.png);
     background-size: cover;
@@ -491,9 +491,9 @@ margin: 10px 0;
 }
 
 .deal_m_img_container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 20px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 
     background-image: url(../Images/Group\ 39.png);
     background-size: cover;
@@ -571,8 +571,6 @@ margin: 10px;
 
     width: 393px;
     height: 52px;
-    border-radius: 8px;
-
     border-radius: 8px;
 
     background: rgba(19, 19, 24, 0.05);
