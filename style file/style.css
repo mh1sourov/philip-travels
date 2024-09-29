@@ -99,7 +99,7 @@ color: rgb(66, 66, 71);
     color: rgb(255, 255, 255);
     font-size: 60px;
     font-weight: 800;
-    margin: 60px 0 25px;
+    margin: 20px 0 25px;
     padding-top: 80px;
 }
 
@@ -268,7 +268,7 @@ margin-top: 25%;
 }
 
 .srilanka{
-    width: 50%;
+    width: 30%;
 
 background-image: url(../Images/Rectangle\ 6.png);
     background-size: cover;
@@ -281,7 +281,7 @@ background-image: url(../Images/Rectangle\ 6.png);
 }
 
 .amarica{
-    width: 50%;
+    width: 60%;
 
     background-image: url(../Images/Rectangle\ 7.png);
         background-size: cover;
@@ -294,7 +294,7 @@ background-image: url(../Images/Rectangle\ 6.png);
 }
 
 .kashmir{
-    width: 50%;
+    width: 30%;
 
     background-image: url(../Images/Rectangle\ 9.png);
         background-size: cover;
@@ -310,6 +310,321 @@ background-image: url(../Images/Rectangle\ 6.png);
     display: flex;
     gap: 20px;
     margin:20px 0;
-    border: 1px solid red;
+   
 }
 
+.bangladesh{
+    width: 40%;
+
+    background-image: url(../Images/Rectangle\ 11.png);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    
+        height: 300px;
+    
+        border-radius: 16px;
+}
+
+.bandarban{
+
+    width: 60%;
+
+    background-image: url(../Images/Rectangle\ 10.png);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    
+        height: 300px;
+    
+        border-radius: 16px;
+
+}
+
+.text-align_1{
+    margin-top: 50%;
+}
+
+.text-align_3{
+    margin-top: 18%;
+}
+
+/* <!-- why choose us section  start here--> */
+
+.choose_us_conainer{
+    max-width: 1200px;
+    margin: 40px auto 20px;
+   
+
+}
+
+.choose_us_content_section{
+    text-align: center;
+}
+
+.choose_us_conainer i{
+    color: rgb(255, 84, 0);
+}
+
+.choose_us_content_section h1, p{
+    padding: 10px;
+}
+
+.upper-two-container{
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 20px;
+}
+
+.left{
+    width: 50%;
+    height: 284px;
+    background-color:rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    padding: 10px 15px;
+}
+
+.right{
+    width: 50%;
+    height: 284px;
+    background-color:rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    padding: 10px 15px;
+}
+
+.down-card{
+
+    width: 50%;
+    height: 284px;
+    background-color:rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    padding: 10px 15px;
+
+}
+
+.down-card-container{
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+/* <!-- why choose us section ends here -->  */
+
+
+/* deals and discount section start here */
+
+.deals_discount-container{
+
+
+    max-width: 1200px;
+    min-width: 912px;
+    margin: 40px auto 20px;
+}
+
+.deals-discount-content{
+    text-align: center;
+    padding: 20px;
+}
+
+.deal_1_img_container{
+    /* border: 1px solid red; */
+    /* background-image: url(../Images/Group\ 39.png); */
+
+    background-image: url(../Images/Group\ 39.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 500px;
+    border-radius: 16px;
+}
+
+.deal_to_Bandarban{
+    width: 575px;
+    height: 385px;
+
+    box-sizing: border-box;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 16px;
+
+backdrop-filter: blur(3px);
+background: rgba(255, 255, 255, 0.8);
+position: relative;
+left: 550px;
+top: 55px;
+padding: 20px;
+}
+
+.deal_to_Bandarban h3{
+margin: 10px 0;
+}
+
+.offer_bar{
+    display: flex;
+}
+
+.offer_bar i, h3, button{
+    color: rgb(255, 84, 0);
+}
+
+#book_now{
+    background-color: rgb(255, 84, 0);
+    color: white;
+
+}
+
+
+
+
+.deal_2_img_container{
+
+    margin-top: 20px;
+    border: 1px solid yellow;
+
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 500px;
+    border-radius: 16px;
+
+}
+
+.deal_m_img_container{
+    border: 1px solid black;
+    margin-top: 20px;
+    border: 1px solid yellow;
+
+    background-image: url(../Images/Group\ 39.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 500px;
+    border-radius: 16px;
+
+}
+
+
+.deal_to_m_Bandarban{
+
+    width: 575px;
+    height: 385px;
+
+    box-sizing: border-box;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 16px;
+
+backdrop-filter: blur(3px);
+background: rgba(255, 255, 255, 0.8);
+position: relative;
+left: 50px;
+top: 55px;
+padding: 20px;
+
+}
+
+.deal_to_m_Bandarban h3{
+    margin: 10px 0;
+    }
+
+#see_all_packages{
+    width: 210px;
+    height: 52px;
+    color: white;
+    background: rgb(255, 84, 0);
+}
+
+/* deals and discount section ends here */
+
+
+/* news letter section start here */
+
+.newsletter_section{
+
+    max-width: 1200px;
+    min-width: 912px;
+    margin: 40px auto 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.newsletter_card_container{
+    width: 474px;
+    height: 422px;
+    border: 2px solid orange;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.newsletter_card_container h3{
+    
+    color: rgb(19, 19, 24);
+font-size: 24px;
+font-weight: 800;
+margin: 10px;
+
+}
+
+.newsletter_card_container input{
+
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+
+    border-radius: 8px;
+
+    background: rgba(19, 19, 24, 0.05);
+
+    padding: 10px;
+
+    margin: 10px;
+    border: none;
+
+}
+
+.newsletter_card_container button{
+    width: 393px;
+height: 52px;
+
+border-radius: 8px;
+
+background: rgb(255, 84, 0);
+color: white;
+margin: 10px;
+}
+
+/* news letter section ends here */
+
+
+footer{
+
+/* max-width: 1440px; */
+min-width: 912px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-icon-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 10px;
+}
+
+.footer_icon_container{
+   margin-top: 30px;
+}
+
+.social_link{
+    display: flex;
+    justify-content: center;
+}
+
+.border{
+    border-bottom: 2px solid gray;
+    width: 872px;
+    margin: 0 auto;
+
+}
