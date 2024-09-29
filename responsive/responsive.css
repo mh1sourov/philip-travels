@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+ 
+    nav{
+        max-width: 600px;
+    }
+
+    .nav-container {
+
+        max-width: 600px;
+        flex-direction: column;
+    
+      }
+      
+      .nav-item {
+        width: 100%;
+        
+      }
+
+      .nav-item ul{
+        flex-direction: column;
+        gap: 10px;
+    
+    
+    }
+
+    
+
+    
+    
+    
+
+
+
+}
+

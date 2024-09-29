@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  
+  min-width: 912px;
+  min-height: 50px;
+}
+
+.nav-container {
+
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto 20px;
+
+}
+
+.nav-icon-box {
+  
+  width: 50%;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-icon img {
+  width: 50px;
+  object-fit: cover;
+}
+
+.nav-title h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+}
+
+.travels{
+    color: rgb(255, 84, 0);
+}
+
+.nav-item {
+
+  width: 50%;
+}
+
+
+.nav-item ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+
+}
+
+.nav-item li a{
+    
+    text-decoration: none;
+    font-weight: 400;
+font-size: 18px;
+color: rgb(66, 66, 71);
+
+}
+
+
+.nav-banner-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    min-height: 50px;
+
+   
+    background-image:linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 500px;
+
+    border-radius: 16px;
+
+}
+
+
+.nav-bnr-content{
+    text-align: center;
+}
+.nav-bnr-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 800;
+    margin: 60px 0 25px;
+    padding-top: 80px;
+}
+
+.nav-bnr-content p{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.custom-section{
+    width: 800px;
+    height: 84px;
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.custom-section input, button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 20px;
+}
+
+.custom-section input:hover{
+    background-color: rgb(255, 84, 0);
+}
+
+.find-now-btn{
+    background-color: rgb(255, 84, 0);
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.popular-tour-container{
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    
+}
+
